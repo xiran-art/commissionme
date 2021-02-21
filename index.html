@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.3/examples/album/ -->
+<html class="bg-dark" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <title>Xiran's Commission Information</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="navID">
+
+  </div>
+
+  <main role="main">
+    <div class="album py-5 bg-dark">
+      <div class="container-fluid">
+
+
+        <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+          action="https://script.google.com/macros/s/AKfycbyRzY6ZoyFiIKBqLdsioUg2goaWK1qwUfQGQZw_K4XK0wfWL6LJ/exec">
+          <!-- change the form action to your script url -->
+
+          <!------------------------------------------------------------------->
+          <div class="form-elements">
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Is this commission going to be used commercially? <i
+                        class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Is this commission going to be used
+                        commercially?</strong>: <br>Commercial
+                      work includes any art that will bring you profit sans emotes/badges made for Twitch/Discord. This
+                      applies to individuals and firms alike. Logos, Banners, and other "channel-related artwork" are
+                      considered commercial work, as they promote your channel and indirectly bring you income. Printing
+                      many copies and selling them does as well. Printing the artwork and
+                      hanging it on your wall / gifting it to a friend / etc., does not constitute as commercial work.
+                      If
+                      you aren't sure, please ask me! </span>
+                  </div>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="commercialRadio" id="noCommercialRadio" value="no"
+                    onchange="updateCommercialRadios()">
+                  <label class="form-check-label text-light" for="noCommercialRadio">
+                    <span>No, this is not a commercial work</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="commercialRadio" id="yesCommercialRadio"
+                    value="yes" onchange="updateCommercialRadios()">
+                  <label class="form-check-label text-light" for="yesCommercialRadio">
+                    <span>Yes, this will be used commercially</span>
+                  </label>
+                </div>
+
+                <div class="p-5 d-none" id="commercialIDText">
+                  <h4 class="text-center xiransred"><u>Please do not fill out this form; message Xiran directly!</u>
+                  </h4>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Contact Information <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Contact Information</strong>:
+                      <br>Please
+                      input your Discord name and handle as it appears in Discord, including any emojis. If you do not
+                      have
+                      a Discord account, you may omit this part of the form, but keep in mind that I respond fastest
+                      there.</span>
+                  </div>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Discord</span>
+                  </div>
+                  <input type="text" class="form-control" name="Contact - Discord" placeholder="Name #1234" aria-label="Discord"
+                    aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">PayPal E-mail</span>
+                  </div>
+                  <input type="email" class="form-control" name="Contact - PayPal" placeholder="email@mail.com" aria-label="PayPal"
+                    aria-describedby="basic-addon1">
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="styleShadingIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Style <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Style</strong>: <br>Choose what style
+                      you'd like me to draw in! Select "Other" if you saw another style that is not mentioned here that
+                      you'd be interested in. </span>
+                  </div>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputStyle">Style</label>
+                  </div>
+                  <select class="custom-select" id="inputStyle" name="Style choice"
+                    onchange="updateStyleShowShadingPriceAndCallOtherFunctions(true)">
+                    <option value="choose" selected>Choose...</option>
+                    <option value="cleanColors">Clean Colors</option>
+                    <option value="hybrid">Hybrid</option>
+                    <option value="coloredSketch">Colored Sketch</option>
+                    <option value="emote">Emote</option>
+                    <option value="sketch">Sketch</option>
+                    <option value="doodle">Doodle</option>
+                    <option value="scribble">Scribble</option>
+                    <option value="logo">Logo (.PSD)</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="mb-3" id="styleShadingID">
+                  <h4 class="text-light">If Doodle/Scribble: Shading?</h4>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="styleShadingRadio" id="noStyleRadio" value="no"
+                      onchange="showStyleShading()">
+                    <label class="form-check-label text-light" for="noStyleRadio">
+                      <span>No aditional shading</span>
+                      <span id="noStyleShadingRadioText"></span>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="styleShadingRadio" id="yesStyleRadio" value="yes"
+                      onchange="showStyleShading()">
+                    <label class="form-check-label text-light" for="yesStyleRadio">
+                      <span>Yes I would like aditinal shading</span>
+                      <span id="yesStyleShadingRadioText"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="bodyIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Body <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Body</strong>: <br>After choosing a
+                      style, please select how much of the body you'd like drawn. Some styles have reduced options.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="btn-group btn-group-toggle mb-2 mx-auto p-0 col-12" data-toggle="buttons">
+
+                  <label class="btn btn-secondary col" type="button" name="buttonBody" for="radioBody1"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateBodyPrice()">
+                    <input class="form-check-input" type="radio" name="amountBody" id="radioBody1" value="portrait">
+                    <span>Portrait</span>
+                    <span id="portraitText"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" type="button" name="buttonBody" for="radioBody2"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateBodyPrice()">
+                    <input class="form-check-input" type="radio" name="amountBody" id="radioBody2" value="halfbody">
+                    <span>Halfbody</span>
+                    <span id="halfbodyText"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" type="button" name="buttonBody" for="radioBody3"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateBodyPrice()">
+                    <input class="form-check-input" type="radio" name="amountBody" id="radioBody3" value="thighs">
+                    <span>Thigh-up</span>
+                    <span id="thigh-upText"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" type="button" name="buttonBody" for="radioBody4"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateBodyPrice()">
+                    <input class="form-check-input" type="radio" name="amountBody" id="radioBody4" value="fullbody">
+                    <span>Full body</span>
+                    <span id="fullbodyText"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" type="button" name="buttonBody" for="radioBody5"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateBodyPrice()">
+                    <input class="form-check-input" type="radio" name="amountBody" id="radioBody5" value="other">
+                    <span>Other</span>
+                    <span id="otherText"></span>
+                  </label>
+
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="amountcharactersIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Solo, Duo, or Multiple Characters <i
+                        class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Solo, Duo, or Multiple
+                        Characters</strong>: <br>After choosing what style and how much of the body you'd like drawn,
+                      please
+                      select how many characters you'd like drawn total. Please note that some styles have reduced
+                      options.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="btn-group btn-group-toggle mb-2 mx-auto p-0 col-12" data-toggle="buttons">
+
+                  <label class="btn btn-secondary col" type="button" name="buttonAmountCharacters" for="radioAmount1"
+                    data-toggle="button" aria-pressed="false" autocomplete="off"
+                    onchange="updateAmountCharactersPrice()">
+                    <input class="form-check-input" type="radio" name="amountCharacters" id="radioAmount1" value="one">
+                    <span>1</span>
+                    <span id="oneText"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" type="button" name="buttonAmountCharacters" for="radioAmount2"
+                    data-toggle="button" aria-pressed="false" autocomplete="off"
+                    onchange="updateAmountCharactersPrice()">
+                    <input class="form-check-input" type="radio" name="amountCharacters" id="radioAmount2" value="two">
+                    <span>2</span>
+                    <span id="twoText"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" type="button" name="buttonAmountCharacters" for="radioAmount3"
+                    data-toggle="button" aria-pressed="false" autocomplete="off"
+                    onchange="updateAmountCharactersPrice()">
+                    <input class="form-check-input" type="radio" name="amountCharacters" id="radioAmount3"
+                      value="three">
+                    <span>3</span>
+                    <span id="threeText"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" type="button" name="buttonAmountCharacters" for="radioAmount4"
+                    data-toggle="button" aria-pressed="false" autocomplete="off"
+                    onchange="updateAmountCharactersPrice()">
+                    <input class="form-check-input" type="radio" name="amountCharacters" id="radioAmount4" value="four">
+                    <span>4</span>
+                    <span id="fourText"></span>
+                  </label>
+
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="designingCharIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Are we designing a character from scratch? <i
+                        class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Are we designing a character from
+                        scratch?</strong>: <br>If you have complete visual references of your character, select No.
+                      If you do not have visual references and would like to pull ideas from multiple images/photos to
+                      design your own character, select Yes. I strongly suggest opting for the doodle option when
+                      designing
+                      characters - while I do not allow edits on doodles, it will still be by far cheaper than having me
+                      make edits to a more complex style. </span>
+                  </div>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="designCharacterRadio" id="noDesignRadio" value="no"
+                    onchange="updateDesignCharactersTextAndPrice()">
+                  <label class="form-check-label text-light" for="noDesignRadio">
+                    <span>No, we are not designing a character</span>
+                    <span id="noDesignRadioText"></span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="designCharacterRadio" id="yesDesignRadio"
+                    value="yes" onchange="updateDesignCharactersTextAndPrice()">
+                  <label class="form-check-label text-light" for="yesDesignRadio">
+                    <span>Yes, we are designing a new character</span>
+                    <span id="yesDesignRadioText"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">References <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>References</strong>: <br>Please
+                      provide
+                      any references of your character's overall appearance I may
+                      need here. The more information your provide, the better I'll understand your POV. If you are
+                      designing a character from scratch, make sure to provide an ample description of what he or she is
+                      like, including personality & mannerisms. </span>
+                  </div>
+                </div>
+
+                <span class="text-light">I prefer an imgur album, but if that's not possible, please provide 1 link per
+                  line</span>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Reference /<br>Description</span>
+                  </div>
+                  <textarea class="form-control" name="references" placeholder="https://imgur.com/a/"
+                    aria-label="referenceDescription"></textarea>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="lewdIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Lewd? <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Lewd?</strong>:
+                      <br>Imagine you're a teacher in a 5th grade classroom. Would you mind getting caught by your boss
+                      with
+                      something like that on your screen? If you wouldn't mind, select No. Else, select Yes.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="lewdRadio" id="noLewdRadio" value="no"
+                    onchange="updateLewdTextAndPrice()">
+                  <label class="form-check-label text-light" for="noLewdRadio">
+                    <span>No, I'm innocent!</span>
+                    <span id="noLewdRadioText"></span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="lewdRadio" id="yesLewdRadio" value="yes"
+                    onchange="updateLewdTextAndPrice()">
+                  <label class="form-check-label text-light" for="yesLewdRadio">
+                    <span>Yes, it's a lewd~</span>
+                    <span id="yesLewdRadioText"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Expression & Pose <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Expression & Pose</strong>:
+                      <br>Provide
+                      any references you may have on the expression and pose you may have. I prefer visual references,
+                      but
+                      if you don't have any, we might be able to work something out from a description.
+                    </span>
+                  </div>
+                </div>
+
+                <span class="text-light">I prefer visual references, but if that's not possible, we can try working from
+                  description.</span>
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Reference /<br>Description</span>
+                  </div>
+                  <textarea class="form-control" name="Expression - Pose" placeholder="Type here..." aria-label="expressionPose"></textarea>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="outfitIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Outfit Complexity <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Outfit Complexity</strong>: <br>This
+                      is
+                      an approximation and may change based on my judgement after reviewing your character's outfit. Use
+                      this as a guideline to understand what I look at in a costume.
+                      Describe things to omit or things to add (that aren't visible in the references) in the comment
+                      box
+                      below. If there is something that I absolutely cannot overlook, mention it here. If your
+                      references
+                      are not clear, clarify them in writing.
+                    </span>
+                  </div>
+                </div>
+
+                <span class="text-light">This is subject to change based on my judgement, but it should give you a rough
+                  idea of what I look at in an outfit.</span>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputOutfit">Complexity</label>
+                  </div>
+                  <select class="custom-select" id="inputOutfit" name="Outfit Complexity" onchange="updateOutfitOptionsTextAndPrice()">
+                    <option value="choose" selected>Choose...</option>
+                    <option value="verysimple" name="outfitOptions">Very simple (T-shirt + pants)</option>
+                    <option value="simple" name="outfitOptions">Simple</option>
+                    <option value="average" name="outfitOptions">Average</option>
+                    <option value="somewhatcomplex" name="outfitOptions">Somewhat complex</option>
+                    <option value="layeredclothing" name="outfitOptions">Layered clothing</option>
+                    <option value="verycomplex" name="outfitOptions">Very complex (Semi-transparent, lace, embroidered,
+                      etc.)</option>
+                  </select>
+                </div>
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Description /<br>Comments</span>
+                  </div>
+                  <textarea class="form-control" name="Outfit Description" placeholder="Type here..." aria-label="outfitDescription"></textarea>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="extrasIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Pets/Props/Weapons <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Props/Pets/Weapons</strong>: <br>I am
+                      very picky when it comes to drawing these. I usually decline to draw pets, but you may try your
+                      luck
+                      depending on the style you choose. You may opt to have them drawn as plushies - I'm more inclined
+                      to
+                      draw those. Props include large wings/tails, furniture, and other items the character may be
+                      holding
+                      or interacting with. They also include items that are larger than the character's head. I am
+                      willing
+                      to draw most swords, some shields, and some grimoires. I'm willing to consider other weapons
+                      (i.e.,
+                      whips, bows/arrows, etc.,), but no promises. I will not draw guns or other mechanical type
+                      weapons</span>
+                  </div>
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Pets</span>
+                  </div>
+                  <input type="number" class="form-control" name="Pets" id="extraPetsInput" placeholder="0"
+                    aria-label="Pets" onchange="updateExtras()">
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Props</span>
+                  </div>
+                  <input type="number" class="form-control" name="Props" id="extraPropsInput" placeholder="0"
+                    aria-label="Props" onchange="updateExtras()">
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Weapons</span>
+                  </div>
+                  <input type="number" class="form-control" name="Weapons" id="extraWeaponsInput" placeholder="0"
+                    aria-label="Weapons" onchange="updateExtras()">
+                </div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">References /<br>Comments</span>
+                  </div>
+                  <textarea class="form-control" placeholder="Type here..." aria-label="questionsConcerns"></textarea>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="backgroundIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Background <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Background</strong>: <br>This is an
+                      approximation and may change based on my judgement after reviewing your background request. Use
+                      this
+                      as a guideline to understand what I look at in drawing backgrounds.
+                      Describe your ideal background & provide any references that may help me weave it together
+                      including
+                      perspective shots and/or color palettes. Please note that I will not mix background styles (e.g.,
+                      colored sketch background + clean colors character).
+                    </span>
+                  </div>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="backgroundRadio" id="noBackgroundRadio" value="no"
+                    onchange="updateBackgroundYesNo()">
+                  <label class="form-check-label text-light" for="noBackgroundRadio">
+                    <span>No, I don't want a background; final image will have a gray or transparent background (specify
+                      in
+                      comment box).</span> <span class="xiransgreen">($0)</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="backgroundRadio" id="yesBackgroundRadio"
+                    value="yes" onchange="updateBackgroundYesNo()">
+                  <label class="form-check-label text-light" for="yesBackgroundRadio">
+                    Yes, I would like a background.
+                  </label>
+                </div>
+
+                <div id="backgroundYesOptionsID">
+                  <span class="text-light">This is subject to change based on my judgement.</span>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="inputBackground">Complexity</label>
+                    </div>
+                    <select class="custom-select" name="Background type" id="inputBackground" onchange="updateBackgroundOptionsTextAndPrice()">
+                      <option value="choose" selected>Choose...</option>
+                      <option value="simple" name="backgroundOptions">Simple (Repeating pattern)</option>
+                      <option value="average" name="backgroundOptions">Average</option>
+                      <option value="somewhatcomplex" name="backgroundOptions">Somewhat complex</option>
+                      <option value="verycomplex" name="backgroundOptions">Very complex (Fully rendered scene
+                        integrating
+                        the character(s))</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Background<br>description/references</span>
+                  </div>
+                  <textarea class="form-control" name="Background description" placeholder="Type here..."
+                    aria-label="backgroundDescription"></textarea>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="skipIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Skip Queue/Rush/Deadline <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Skip Queue/Rush/Deadline</strong>:
+                      <br>Add me to queue - you will be added to the end of the queue, and I will contact you as soon as
+                      I
+                      get to your turn.
+                      Skip queue - you will skip the queue, and I will work on your commission after I finish the
+                      commission
+                      I'm currently working on. This will not be done ASAP, I will work at my normal speed. The more
+                      people
+                      you skip, the more expensive it'll be.
+                      Rush/Priority - skip the queue and skip the commission I'm currently working on. I will work on it
+                      ASAP, during every waking moment of my day to get your commission done as quickly as physically
+                      possible. The more people you skip, the more expensive it'll be.
+                    </span>
+                  </div>
+                </div>
+
+                <div class="btn-group btn-group-toggle mb-2 mx-auto p-0 col-12" data-toggle="buttons">
+
+                  <label class="btn btn-secondary col" name="skipQueueButtons" type="button" for="radioSkip1"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateSkipQueuePrice()">
+                    <input class="form-check-input" type="radio" name="skipQueueRadio" id="radioSkip1" value="addqueue">
+
+                    <span class="font-weight-bold">Add me to queue<br></span>
+                    <span>Do not skip the line, I'm willing to wait</span>
+
+                    <hr class="solid">
+
+                    <span id="addtoqueueText" class="xiransgreen">+0%</span>
+
+                    <hr class="solid">
+
+                    <span>Total people in queue: </span>
+                    <span id="skipIDpeopleInQueue"></span>
+
+                  </label>
+
+                  <label class="btn btn-secondary col" name="skipQueueButtons" type="button" for="radioSkip2"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateSkipQueuePrice()">
+                    <input class="form-check-input" type="radio" name="skipQueueRadio" id="radioSkip2"
+                      value="skipqueue">
+
+                    <span class="font-weight-bold">Skip queue<br></span>
+                    <span>Skip the line; order will NOT be done ASAP</span>
+
+                    <hr class="solid">
+
+                    <span id="skipqueueText" class="xiransgreen">5</span>
+
+                    <hr class="solid">
+
+                    <span>People skipping queue: </span>
+                    <span id="skipIDpeopleSkipping"></span>
+                  </label>
+
+                  <label class="btn btn-secondary col" name="skipQueueButtons" type="button" for="radioSkip3"
+                    data-toggle="button" aria-pressed="false" autocomplete="off" onchange="updateSkipQueuePrice()">
+                    <input class="form-check-input" type="radio" name="skipQueueRadio" id="radioSkip3"
+                      value="skipqueueasap">
+
+                    <span class="font-weight-bold">Rush/Priority<br></span>
+                    <span>Skip the line; order will be done ASAP</span>
+
+                    <hr class="solid">
+
+                    <span id="skipqueueasapText" class="xiransgreen">5</span>
+
+                    <hr class="solid">
+
+                    <span>Rushed orders taking place: </span>
+                    <span id="skipIDpeopleRushing"></span>
+                  </label>
+
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                <div class="row h-50"></div>
+                <p class="text-light text-center d-none" id="privateIDValue">50%</p>
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Private? <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Private?</strong>: <br>Some clients
+                      request that I keep their commissions private for various reasons. Oftentimes it's a gift of some
+                      sort
+                      for their significant other when they both follow me. Other times, it's a lewd drawing. If for
+                      whatever reason, you want to keep the end result permanently off my social media, select Yes. This
+                      will double the total price of your commission.
+                    </span>
+                  </div>
+                </div>
+
+                <span class="text-light">Select "Yes" if you want it kept off my social media permanently.</span>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="privateRadio" id="noPrivateRadio" value="no"
+                    onchange="updatePrivateTextAndPrice()">
+                  <label class="form-check-label text-light" for="noPrivateRadio">
+                    <span>No, Xiran can post it wherever she wants</span>
+                    <span id="noPrivateRadioText"></span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="privateRadio" id="yesPrivateRadio" value="yes"
+                    onchange="updatePrivateTextAndPrice()">
+                  <label class="form-check-label text-light" for="yesPrivateRadio">
+                    <span>Yes, I want Xiran to keep it off social media (this will double the price)</span>
+                    <span id="yesPrivateRadioText"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+                <h4 class="text-light"></h4>
+
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle dropdown-toggle-fix" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="h4 text-light">Did you read my TOS? <i class="fas fa-question-circle"></i></span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="dropdownMenuButton">
+                    <span class="dropdown-item dropdown-item-fix disabled"><strong>Did you read my TOS?</strong>:
+                      <br>By commissioning me, you agree to abide by my terms of service. I do not make exceptions for
+                      ignorance. Please read over my terms of service so you know what you're agreeing to.
+                    </span>
+                  </div>
+                </div>
+
+                <span class="text-light"><a
+                    href="https://www.deviantart.com/xir4n/art/Commissions-Prices-ToS-FAQ-Info-OPEN-844947526"
+                    target="_blank" class="text-color-link">Terms of Service?</a></span>
+
+                <div class="form-check">
+                  <input class="form-check-input d-none" type="radio" name="tosRadio" id="noTosRadio" value="no" checked>
+                  <input class="form-check-input" type="radio" name="tosRadio" id="yesTosRadio" value="I agree">
+                  <label class="form-check-label text-light" for="yesTosRadio">
+                    Yes, I read the Terms of Service & I agree to them
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+                <h4 class="text-light">Do you have any questions or concerns?</a></h4>
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Questions /<br>Concerns</span>
+                  </div>
+                  <textarea class="form-control" name="Questions - Concerns" placeholder="Type here..." aria-label="questionsConcerns"></textarea>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+                <h4 class="text-light">Any other details I should know about?</a></h4>
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Details</span>
+                  </div>
+                  <textarea class="form-control" name="Any other details?" placeholder="Type here..." aria-label="details"></textarea>
+                </div>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row mb-4">
+              <div class="col-0 col-lg-1 col-xl-2">
+
+              </div>
+
+              <div class="col-1">
+                
+              </div>
+
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+                <span class="h4 text-light text-left">Total: </span>
+                <span class="h4 text-light text-center" id="totalIDValue">$10.00</span>
+                <textarea class="text-light text-center d-none" id="totalIDValue2" name="total">$10.00</textarea>
+              </div>
+
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3">
+
+              </div>
+
+            </div>
+
+            <!------------------------------------------------------------------->
+
+            <div class="row">
+              <div class="col-1 col-lg-2 col-xl-3"></div>
+              <div class="col-11 col-sm-10 col-lg-8 col-xl-6">
+                <button class="btn btn-dark btn-dark-fix button-success pure-button button-xlarge btn-lg btn-block mx-auto">
+                  <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+              </div>
+              <div class="col-0 col-sm-1 col-lg-2 col-xl-3"></div>
+            </div>
+            
+
+          </div>
+          <!------------------------------------------------------------------->
+
+          <!-- Customise the Thankyou Message People See when they submit the form: -->
+          <div class="container thankyou_message" style="display:none;">
+            <h2 class="text-light text-center"><em>Thank you</em> for submitting a commission form!
+              <br>Xiran will contact you as soon as possible!</h2>
+          </div>
+
+        </form>
+
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-muted">
+    <div class="container">
+
+    </div>
+  </footer>
+  <div id="spinner-wrapper">
+    <div class="lds-ring">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/index.js"></script>
+  <script data-cfasync="false" src="js/send.js"></script>
+</body>
+
+</html>
